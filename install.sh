@@ -18,9 +18,7 @@ done
 gitconfig() {
   local current_config=`git config --global $1`
 
-  [ "$current_config" = $2 ] && return
-
-  if [ "$current_config" != '' ]; then
+  if [ -n "$current_config" ]; then
     printf "git config: set $1 to '$2'? "
     read yn
     ! expr "$yn" : '\([Yy]\(es\)\{0,1\}\)' > /dev/null && return
@@ -29,6 +27,7 @@ gitconfig() {
   git config --global $1 $2
 }
 gitconfig core.excludesfile "$HOME/.gitignore_global"
+gitconfig init.defaultBranch main
 gitconfig push.default upstream
 gitconfig status.branch 'true'
 gitconfig status.short 'true'
