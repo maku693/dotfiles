@@ -1,0 +1,12 @@
+[submodule ".vim/pack/mypackage/start/vim-usual"]
+	path = .vim/pack/mypackage/start/vim-usual
+	url = https://github.com/maku693/vim-usual
+  shallow = true
+[submodule ".vim/pack/mypackage/start/editorconfig-vim"]
+	path = .vim/pack/mypackage/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
+  shallow = true
+[submodule ".vim/pack/mypackage/start/vim-molder"]
+	path = .vim/pack/mypackage/start/vim-molder
+	url = https://github.com/mattn/vim-molder
+  shallow = true
