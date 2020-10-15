@@ -51,6 +51,7 @@ set noundofile
 set omnifunc=syntaxcomplete#Complete
 
 " Plugin options
+let g:loaded_netrwPlugin = 1
 if executable("rg")
   let g:ackprg = 'rg --vimgrep'
 endif
