@@ -6,3 +6,7 @@
 	path = .vim/pack/mypackage/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
 	shallow = true
+[submodule ".vim/pack/mypackage/start/vim-dirvish"]
+	path = .vim/pack/mypackage/start/vim-dirvish
+	url = https://github.com/justinmk/vim-dirvish
+	shallow = true
