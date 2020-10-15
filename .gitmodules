@@ -1,12 +1,12 @@
-[submodule ".vim/pack/mypackage/start/vim-usual"]
-	path = .vim/pack/mypackage/start/vim-usual
+[submodule ".vim/pack/colors/start/vim-usual"]
+	path = .vim/pack/colors/start/vim-usual
 	url = https://github.com/maku693/vim-usual
 	shallow = true
-[submodule ".vim/pack/mypackage/start/editorconfig-vim"]
-	path = .vim/pack/mypackage/start/editorconfig-vim
+[submodule ".vim/pack/plugins/start/editorconfig-vim"]
+	path = .vim/pack/plugins/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
 	shallow = true
-[submodule ".vim/pack/mypackage/start/vim-dirvish"]
-	path = .vim/pack/mypackage/start/vim-dirvish
+[submodule ".vim/pack/plugins/start/vim-dirvish"]
+	path = .vim/pack/plugins/start/vim-dirvish
 	url = https://github.com/justinmk/vim-dirvish
 	shallow = true
