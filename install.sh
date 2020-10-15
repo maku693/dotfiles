@@ -28,6 +28,8 @@ gitconfig() {
 }
 gitconfig core.excludesfile "$HOME/.gitignore_global"
 gitconfig init.defaultBranch main
+gitconfig log.decorate full
+gitconfig log.date iso
 gitconfig push.default upstream
 gitconfig status.branch 'true'
 gitconfig status.short 'true'
